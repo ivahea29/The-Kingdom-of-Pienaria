@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/PlayerJumpSound.mp3-c4b8bf663fd2f2db2ac28afc64ead0a0.mp3str"
+
+[deps]
+
+source_file="res://Sprites/CharacterSounds/PlayerJumpSound.mp3"
+dest_files=[ "res://.import/PlayerJumpSound.mp3-c4b8bf663fd2f2db2ac28afc64ead0a0.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

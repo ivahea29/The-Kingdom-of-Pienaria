@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3-238c9496bda97ae5720304f64d7c090e.mp3str"
+
+[deps]
+
+source_file="res://Sprites/2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3"
+dest_files=[ "res://.import/2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3-238c9496bda97ae5720304f64d7c090e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

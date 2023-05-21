@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/stranger-things-124008.mp3-dbc9ca4be5c6fd8d3f1ed7632ede6b12.mp3str"
+
+[deps]
+
+source_file="res://Sprites/Music/stranger-things-124008.mp3"
+dest_files=[ "res://.import/stranger-things-124008.mp3-dbc9ca4be5c6fd8d3f1ed7632ede6b12.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

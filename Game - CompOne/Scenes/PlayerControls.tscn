@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Menu/pixil-frame-0(3).png" type="Texture" id=1]
+[ext_resource path="res://Scenes/PlayerControls.gd" type="Script" id=3]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="BackButton" type="Button" parent="."]
+margin_left = 520.0
+margin_top = 432.0
+margin_right = 730.0
+margin_bottom = 528.0
+text = "Back"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 0.497906
+anchor_top = 0.613889
+anchor_right = 0.519906
+anchor_bottom = 0.613889
+margin_left = -13.32
+margin_top = -10.0
+margin_right = 0.519958
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Overview" type="Node2D" parent="."]
+
+[node name="controls" type="Sprite" parent="Overview"]
+position = Vector2( 656, 304 )
+scale = Vector2( 0.1056, 0.0604 )
+texture = ExtResource( 1 )
+
+[connection signal="pressed" from="BackButton" to="." method="_on_BackButton_pressed"]
